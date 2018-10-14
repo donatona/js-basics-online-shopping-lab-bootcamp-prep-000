@@ -10,9 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-var newItem = generateCartItem(item);
-getCart().push(newItemtem);
-return `${newItem.itemName} has been added to your cart.`;
+
+getCart().push(item);
+return `${item.itemName} has been added to your cart.`;
 }
 
 function viewCart() {
